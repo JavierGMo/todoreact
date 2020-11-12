@@ -1,0 +1,38 @@
+body{
+    background-color: #222831;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fafafa;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.todoinpt{
+    border: none;
+    border-radius: 2px 0 0 2px;
+}
+input[type="text"]:focus{
+    border: 1px solid #29a19c;
+}
+.btnadd{
+    border: none;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    background-color: #29a19c;
+}
+.todoinpt, .btnadd{
+    padding: 0.5rem;
+}
+
+.todo{
+    cursor: pointer;
+    background-color: rgba(57, 62, 70, 0.4);
+    border-radius: 2px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.todo:hover{
+    background-color: #393e46;
+}
